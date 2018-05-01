@@ -1,0 +1,80 @@
+<html class="no-js">
+
+<head>
+    <meta charset='utf-8'/>
+	<link rel="shortcut icon" type="image/png" href="favicon.png?v=1"/>
+    <meta http-equiv="Content-Type" content='text/html; charset=UTF-8' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+	<link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+	<title>Web Piano</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="hover">
+		<div class="centered">
+			<div class="play-text">Web Piano will work only in browsers supporting Web Audio API & Media Streams.<br>Use Firefox or Chrome to fully enjoy the demo.</div>
+			<div class="play-button"></div>
+		</div>
+	</div>
+    <h1>Web Piano</h1>
+	<div class="panel">
+		<div class="piano">
+			<div class="whites">
+				<div class="white">Q</div>
+				<div class="white">W</div>
+				<div class="white">E</div>
+				<div class="white">R</div>
+				<div class="white">T</div>
+				<div class="white">Y</div>
+				<div class="white">U</div>
+				<div class="white">I</div>
+				<div class="white">O</div>
+				<div class="white">P</div>
+				<div class="white">[</div>
+				<div class="white">]</div>
+				<div class="white">Z</div>
+				<div class="white">X</div>
+				<div class="white">C</div>
+				<div class="white">V</div>
+				<div class="white">B</div>
+				<div class="white">N</div>
+				<div class="white">M</div>
+				<div class="white">,</div>
+				<div class="white">.</div>
+			</div>
+			<div class="blacks">
+				<div class="black">2</div>
+				<div class="black">3</div>
+				<div class="black">4</div>
+				<div class="black">5</div>
+				<div class="black">6</div>
+				<div class="black">7</div>
+				<div class="black">8</div>
+				<div class="black">9</div>
+				<div class="black">0</div>
+				<div class="black">-</div>
+				<div class="black">=</div>
+				<div class="black">A</div>
+				<div class="black">S</div>
+				<div class="black">D</div>
+				<div class="black">F</div>
+				<div class="black">G</div>
+				<div class="black">H</div>
+				<div class="black">J</div>
+				<div class="black">K</div>
+				<div class="black">L</div>
+			</div>
+		</div>
+		<div id="analyser"></div>
+		<div class="player-buttons">
+			<a class="button green start-recording">Start recording</a>
+			<a class="button red stop-recording disabled">Stop recording</a>
+		</div>
+		<div class="player"></div>
+	</div>
+    <script src="script.js"><!----></script>
+
+</body>
+</html>
